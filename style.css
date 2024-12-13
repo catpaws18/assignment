@@ -11,7 +11,8 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    background-color: #ffffff;
+    background-color: black;
+    color: white;
 }
 
 header {
@@ -59,6 +60,73 @@ footer {
 
 }
 
-#sketch-container{
-    margin: 20px; 
+.sketch-container{
+
+        width: 600px; /* Adjust size as needed */
+        height: 400px; /* Adjust size as needed */
+        margin: 10px auto; /* Center horizontally */
+        border: 5px solid black; /* Optional: Add a border around the sketch */
+        position: absolute
+        top: 50%
+
+        transform: translate (-50%,-50%)
+        
 }
+
+
+      .paragraph-box {
+        width: 50%; /* The width of the box (you can change this as per your needs) */
+        max-width: 800px; /* Maximum width */
+        margin: 10px auto 20px auto; /* Center the box horizontally */
+        padding: 20px;
+        background-color: black; /* White background for the box */
+        border: 1px solid #ccc; /* Light border for the box */
+        border-radius: 10px; /* Optional: rounded corners */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: slight shadow for effect */
+      }
+      
+      /* Style for paragraphs inside the box */
+      .paragraph-box p {
+        margin-bottom: 15px;
+        line-height: 1.6; /* Improve readability */
+        font-size: 1.1em; /* Slightly larger font size */
+      }
+
+      .about-page {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        width: 80%;
+        max-width: 900px;
+        margin: 30px auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .about-page h1 {
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: #b8b9c1;
+    }
+    
+    .about-page h2 {
+        font-size: 1.8em;
+        margin-top: 20px;
+        color: #b8b9c1;
+    }
+    
+    .about-page {
+        font-size: 1.2em;
+        line-height: 1.6;
+    }
+    
+    .about-page ul {
+        list-style-type: none;
+        padding: 0;
+        margin-top: 10px;
+    }
+    
+    .about-page ul li {
+        font-size: 1.1em;
+        margin-bottom: 10px;
+    }

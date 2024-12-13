@@ -1,6 +1,6 @@
 let img
 function preload(){
-  img = loadImage("lotus.png")
+  img = loadImage('../images/rain1.png')
   
 }
 function setup() {
